@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css" media="screen" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,54 +15,68 @@
     />
   </head>
   <body>
-    <div class="background">
-      <img
-        class="girl"
-        src="/Users/martarudnytska/Desktop/project/images/girl-and-pet.png"
-        alt="girl and pet"
-        style="float: right"
-        width="775px"
-        height="900px"
-      />
-    </div>
-    <div class="logo">
-      <img src="/Users/martarudnytska/Desktop/project/icons/Logo.svg" alt="" />
-    </div>
-    <h1>Hi intern!</h1>
-    <h2>Welcome to MI 2022 Front-end test</h2>
-    <p class="text">Lets start using The Cat API</p>
-    <div class="icons">
-      <div class="icon-vote">
-        <img
-          class="vote"
-          src="/Users/martarudnytska/Desktop/project/icons/vote-table.svg"
-          alt="vote-table"
-          width="100px"
-          height="124.47px"
-        />
+    <main class="container">
+      <div class="row">
+        <div class="content">
+          <div class="logo">
+            <img src="../icons/Logo.svg" alt="" />
+          </div>
+          <div class="text1">
+            <h1>Hi intern!</h1>
+            <h2>Welcome to MI 2022 Front-end test</h2>
+            <p class="text">Lets start using The Cat API</p>
+          </div>
+          <div class="icons">
+            <div class="icon-vote">
+              <img
+                class="vote"
+                src="../icons/vote-table.svg"
+                alt="vote-table"
+                width="100px"
+                height="124.47px"
+              />
+            </div>
+            <div class="icon-breeds">
+              <img
+                class="breeds"
+                src="../icons/pet-breeds.svg"
+                alt="pet-breeds"
+              />
+            </div>
+            <div class="icon-search">
+              <img
+                class="search"
+                src="../icons/images-search.svg"
+                alt="images-search"
+              />
+            </div>
+          </div>
+
+          <div class="boxes">
+            <div class="voting-box">
+              <p class="voting-word">VOTING</p>
+            </div>
+            <div class="breeds-box">
+              <p class="breeds-word">BREEDS</p>
+            </div>
+            <div class="gallery-box">
+              <p class="gallery-word">GALLERY</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image">
+          <div class="background">
+            <img
+              class="girl"
+              src="../images/girl-and-pet.png"
+              alt="girl and pet"
+              width="775px"
+              height="900px"
+            />
+          </div>
+        </div>
       </div>
-      <div class="icon-breeds">
-        <img
-          class="breeds"
-          src="/Users/martarudnytska/Desktop/project/icons/pet-breeds.svg"
-          alt="pet-breeds"
-        />
-      </div>
-      <div class="icon-search">
-        <img
-          class="search"
-          src="/Users/martarudnytska/Desktop/project/icons/images-search.svg"
-          alt="images-search"
-        />
-      </div>
-    </div>
-    <div class="voting-box">
-      <p class="voting-word">VOTING</p>
-    </div>
-    <div class="breeds-box">
-      <p class="breeds-word">BREEDS</p>
-    </div>
-    <div class="gallery-box"></div>
-    <p class="gallery-word">GALLERY</p>
+    </main>
   </body>
 </html>
